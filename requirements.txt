@@ -1,5 +1,5 @@
-# requirements.txt for project dependencies
-# This file lists the necessary Python packages for the project.
+# requirements.txt for the project
+# List of required Python packages
 
 aiohttp==3.8.4
 aiosignal==1.3.1
