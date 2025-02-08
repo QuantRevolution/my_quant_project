@@ -1,7 +1,11 @@
 # .gitignore for the project
-# This file tells Git which files to ignore (e.g., virtual environments, log files).
+# Ignore the virtual environment folder
+quant_env/
 
-quant_env/            # Ignore the virtual environment folder
-*.pyc                 # Ignore compiled Python files
-__pycache__/          # Ignore Python bytecode cache
-*.log                 # Ignore log files (if you generate logs)
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
