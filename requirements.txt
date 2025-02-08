@@ -1,6 +1,7 @@
 # Essential packages for Quantitative Trading project
 
 # Data handling and manipulation
+
 pandas==1.5.3  # Data analysis library for handling time series data
 
 # Numerical computation
